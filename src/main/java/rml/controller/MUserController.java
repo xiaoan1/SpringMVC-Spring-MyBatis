@@ -25,6 +25,8 @@ public class MUserController {
 	@Autowired
 	public void setMuserService(MUserServiceI muserService) {
 		this.muserService = muserService;
+		
+		
 	}
 	
 	@RequestMapping(value="/listUser")
